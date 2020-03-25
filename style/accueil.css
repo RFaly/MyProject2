@@ -1,0 +1,137 @@
+/* -------------------SECTION 1------------------ */
+#container{
+	color: #42313a;
+	font-family: sans-serif;
+}
+#fond1{
+	max-width: 900px;
+	
+	display: block;
+}
+
+h2{
+	color: #42313a;
+	font-size: 1.5em;
+}
+
+small{
+	display: block;
+	margin: 10px 0px;
+}
+
+.decouvrir{
+	border: 2px solid rgb(159, 70, 54,0.1); /*42313a*/
+	padding: 3px 0px;
+	padding-left: 2em;
+	color: #9f4636;
+	margin-bottom: 10px;
+}
+
+/* -------------------SECTION 2------------------ */
+
+.searchForm{
+	border: 2px solid rgb(159, 70, 54,0.1);
+	background-color: rgb(159, 70, 54,0.13);
+	padding: 10px 10px;
+}
+
+
+
+.searchForm form{
+	display: flex;
+	justify-content: center;
+	font-size: 15px;
+}
+
+.form-control{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-right: 30px;
+	font-style: italic;
+}
+
+.form-control input,.form-control select{
+	padding: 3px 10px;
+}
+
+.form-control input[type="submit"]{
+	padding: 9px;
+	font-weight: bold;
+}
+
+
+/* -------------------SECTION 3------------------ */
+.pub{
+	font-size: 0.9em;
+	border-bottom: 3px solid rgb(159, 70, 54,0.1);
+}
+
+.listUniversite{
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.banerImage{
+	flex: 1;
+}
+
+.banerImage img{
+	width: 300px;
+}
+
+.banerList{
+	flex: 3;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+
+.impaire{
+	background-color: rgb(159, 70, 54, 0.1);
+}
+
+.paire{
+	background-color: rgb(66, 49, 58, 0.2);
+}
+
+/* ------------------- SECTION 4 ------------------ */
+#rightImage{
+	float: right;
+	width: 160px;
+}
+.sInscrire{
+	border: 2px solid rgb(159, 70, 54,0.1); /*42313a*/
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.sInscrire p{
+	text-align: justify;
+	font-weight: bold;
+}
+
+.sInscrire p:hover{
+	border-left: 5px solid rgb(66, 49, 58, 0.2);
+	padding-left: 5px;
+}
+
+.sInscrire button{
+	border: 0px;
+	padding: 15px 20px;
+	background-color: #42313a;
+	color: #f1dcc9;
+}
+
+#btn{
+	text-align: center;
+}
+
+h1,h2,h3,h4{
+	color: #6c2d2c;
+}
+
+.banerList table{
+	width: 100%;
+	border-collapse: collapse;
+}

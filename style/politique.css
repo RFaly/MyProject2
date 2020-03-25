@@ -1,0 +1,14 @@
+img{
+	border-radius: 20px;
+	margin: 10px;
+}
+p{
+	text-align: justify;
+}
+#img1,#img4,#img2,#img5,#img8,#img10 {
+	float: left;
+}
+
+#img3,#img6,#img7,#img9,#img11{
+	float: right;
+}

@@ -1,0 +1,89 @@
+/* ==========================HEADER=========================== */
+#container{
+	width: 900px;
+	margin: auto;
+}
+body
+{
+	color: #6c2d2c;
+	background-color: #f1dcc9;
+}
+#malgache
+{
+	color: #f1dcc9;
+	font-size: 1.6em;
+}
+header
+{
+	background-color: #42313a;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+header nav ul
+{
+	display: flex;
+	list-style: none;
+}
+
+header nav li
+{
+	margin-right: 15px;
+}
+
+nav a, #malgache {
+	font-size: 1em;
+	color: #f1dcc9;
+	text-decoration:none;
+}
+
+nav a:visited, #malgache {
+	color: #f1dcc9;
+}
+
+
+/* ==========================FOOTER=========================== */
+footer
+{
+	background-color: #42313a;
+	color: #f1dcc9;
+}
+
+footer #info
+{
+	display: flex;
+	justify-content: center;
+}
+
+#info ul{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	list-style: none;
+}
+
+#info ul li{
+	margin: 4px 0px;
+}
+
+#info h1{
+	font-size: 2em;
+	color: #f1dcc9;
+}
+
+footer nav ul
+{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+
+footer nav li
+{
+	margin-right: 20px;
+}
+
+footer p
+{
+	text-align: center;
+}
